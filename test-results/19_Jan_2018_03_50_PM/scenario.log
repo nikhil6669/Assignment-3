@@ -1,0 +1,26 @@
+15:50:48 scenario.file.loc[Ljava.lang.String;@50de0926
+15:50:48 loading BDD file: scenarios/suite1.bdd
+15:50:48 total test found: 1
+15:50:48 
+
+Executing scenario: I open Orbtiz application2 - End To End flow
+15:50:48 Test Data{origin=Pune, India (PNQ-Lohegaon), destination=Mumbai, India}
+15:50:48 pkg: com.qmetry.qaf.automation.step
+15:50:49 pkg: com.qaf.assignment_3
+15:50:49 Found duplicate step to load [] with [lower] prority then []
+15:50:49 Found duplicate step to load [] with [lower] prority then []
+15:50:49 Found duplicate step to load [] with [lower] prority then []
+15:50:49 Invoking Teststep: Given user opens Orbitz site
+15:51:04 Completed Teststep: Given user opens Orbitz site
+15:51:04 Invoking Teststep: When user select '${origin}' and '${destination}' with arguments: [${origin}, ${destination}]
+15:51:06 Completed Teststep: When user select 'Pune, India (PNQ-Lohegaon)' and 'Mumbai, India' with arguments: [${origin}, ${destination}]
+15:51:06 Competed scenario: I open Orbtiz application2 with status SUCESS
+15:51:06 
+
+Executing scenario: I open Orbtiz application2 - End To End flow
+15:51:06 Test Data{origin=Pune, India (PNQ-Lohegaon), destination=Kolkata, India}
+15:51:06 Invoking Teststep: Given user opens Orbitz site
+15:51:11 Completed Teststep: Given user opens Orbitz site
+15:51:11 Invoking Teststep: When user select '${origin}' and '${destination}' with arguments: [${origin}, ${destination}]
+15:51:12 Completed Teststep: When user select 'Pune, India (PNQ-Lohegaon)' and 'Kolkata, India' with arguments: [${origin}, ${destination}]
+15:51:12 Competed scenario: I open Orbtiz application2 with status SUCESS

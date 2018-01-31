@@ -1,0 +1,41 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "userOpensOrbitzSite",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://www.orbitz.com}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 6368
+        },
+        {
+          "commandName": "maximizeWindow",
+          "args": [
+            "{windowHandle=current}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1146
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given user opens Orbitz site",
+      "type": "TestStepPass",
+      "duration": 10585,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

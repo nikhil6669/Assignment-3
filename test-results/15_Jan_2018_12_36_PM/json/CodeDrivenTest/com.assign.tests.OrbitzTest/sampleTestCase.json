@@ -1,0 +1,61 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "{url=https://www.orbitz.com}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 6855
+    },
+    {
+      "commandName": "maximizeWindow",
+      "args": [
+        "{windowHandle=current}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 1137
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=package-origin, using=id}"
+      ],
+      "result": "id: 0.8609557020351892-1",
+      "subLogs": [],
+      "duration": 46
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.id: package-origin",
+        "{\"id\":\"0.8609557020351892-1\",\"value\":[\"inputOrigin\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 428
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@name='package-destination' or @id='package-destination' or @value='package-destination'], using=xpath}"
+      ],
+      "result": "id: 0.8609557020351892-2",
+      "subLogs": [],
+      "duration": 39
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.xpath: //*[@name='package-destination' or @id='package-destination' or @value='package-destination']",
+        "{\"id\":\"0.8609557020351892-2\",\"value\":[\"inputDestination\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 399
+    }
+  ],
+  "checkPoints": []
+}

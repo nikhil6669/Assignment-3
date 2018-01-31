@@ -1,0 +1,61 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "{url=https://www.orbitz.com}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 6168
+    },
+    {
+      "commandName": "maximizeWindow",
+      "args": [
+        "{windowHandle=current}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 6
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=package-origin, using=id}"
+      ],
+      "result": "id: 0.7705737920374387-1",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.id: package-origin",
+        "{\"id\":\"0.7705737920374387-1\",\"value\":[\"munbai\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 299
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=package-destination, using=id}"
+      ],
+      "result": "id: 0.7705737920374387-2",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.id: package-destination",
+        "{\"id\":\"0.7705737920374387-2\",\"value\":[\"bali\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 144
+    }
+  ],
+  "checkPoints": []
+}

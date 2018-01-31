@@ -1,0 +1,37 @@
+SCENARIO: I open Orbtiz application
+#META-DATA: {"description":"End To End Test","groups":["SMOKE"]}
+	
+#	Add Steps here
+	Given user opens Orbitz site
+	When user select origin and destination
+	When user select date for Departing and Returning
+	When user select number of childrens and their age
+	Then user clicks on search button
+	And user verify search result
+#END
+
+SCENARIO: I open Orbtiz WebSite
+#META-DATA: {"description":"End To End Test","groups":["SMOKE"]}
+	
+#	Add Steps here
+	Given user opens Orbitz site
+	When user select '${origin}' and '${destination}'
+	When user select date for '${departing}' and '${returning}'
+	When user select number of '${childrens}' and their '${age}'
+	Then click button is clicked
+	And user verifys search result
+#END
+
+
+SCENARIO: I open Orbtiz application2
+META-DATA: {"description":"End To End flow","groups":["P1","P2","SMOKE"],"key":"places"}
+	
+	#TODO: call test steps
+	Given user opens Orbitz site
+	When user select '${origin}' and '${destination}'
+	When user select date for Departing and Returning
+	When user select number of childrens and their age
+	Then user clicks on search button
+	And user verify search result
+END
+

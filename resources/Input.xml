@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<location>
+	<places>
+		<origin>Pune, India (PNQ-Lohegaon)</origin>
+		<destination>Mumbai, India</destination>
+	</places>
+
+	<places>
+		<origin>Pune, India (PNQ-Lohegaon)</origin>
+		<destination>Kolkata, India</destination>
+	</places>
+</location>

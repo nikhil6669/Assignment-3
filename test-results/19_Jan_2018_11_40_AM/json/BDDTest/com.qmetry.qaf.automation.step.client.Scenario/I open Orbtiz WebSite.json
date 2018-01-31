@@ -1,0 +1,189 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "userOpensOrbitzSite",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://www.orbitz.com}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 6444
+        },
+        {
+          "commandName": "maximizeWindow",
+          "args": [
+            "{windowHandle=current}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1136
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "userSelectAnd",
+      "args": [
+        "[${origin}, ${destination}]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=package-origin, using=id}"
+          ],
+          "result": "id: 0.35798967557735617-1",
+          "subLogs": [],
+          "duration": 171
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.id: package-origin",
+            "{\"id\":\"0.35798967557735617-1\",\"value\":[\"Pune, India (PNQ-Lohegaon)\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 1650
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=package-destination, using=id}"
+          ],
+          "result": "id: 0.35798967557735617-2",
+          "subLogs": [],
+          "duration": 46
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.id: package-destination",
+            "{\"id\":\"0.35798967557735617-2\",\"value\":[\"Mumbai, India\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 626
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "userSelectDateForAnd",
+      "args": [
+        "[25, 26]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=package-departing, using=id}"
+          ],
+          "result": "id: 0.35798967557735617-3",
+          "subLogs": [],
+          "duration": 163
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: package-departing",
+            "{\"id\":\"0.35798967557735617-3\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 300
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=.//*[@id='package-departing-wrapper']/div/div/div[2]/table/tbody/tr/td/button[contains(text(),'25')], using=xpath}"
+          ],
+          "result": "id: 0.35798967557735617-4",
+          "subLogs": [],
+          "duration": 171
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: .//*[@id='package-departing-wrapper']/div/div/div[2]/table/tbody/tr/td/button[contains(text(),'25')]",
+            "{\"id\":\"0.35798967557735617-4\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 294
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=package-returning, using=id}"
+          ],
+          "result": "id: 0.35798967557735617-5",
+          "subLogs": [],
+          "duration": 37
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: package-returning",
+            "{\"id\":\"0.35798967557735617-5\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 3359
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=.//*[@id='package-returning-wrapper']/div/div/div[2]/table/tbody/tr/td/button[contains(text(),'26')], using=xpath}"
+          ],
+          "result": "id: 0.35798967557735617-6",
+          "subLogs": [],
+          "duration": 36
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: .//*[@id='package-returning-wrapper']/div/div/div[2]/table/tbody/tr/td/button[contains(text(),'26')]",
+            "{\"id\":\"0.35798967557735617-6\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 125
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given user opens Orbitz site",
+      "type": "TestStepPass",
+      "duration": 11391,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When user select 'Pune, India (PNQ-Lohegaon)' and 'Mumbai, India'",
+      "type": "TestStepPass",
+      "duration": 2516,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When user select date for '25' and '26'",
+      "type": "TestStepPass",
+      "duration": 165335,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+joindreward = {\"locator\":\"id=rewardsHeader\",\"desc\":\"joind reward on search page\"}
+searchResult = {\"locator\":\"xpath=.//article[contains(@class,'hotel listing')]\",\"desc\":\"search result\"}
+searchPrice = {\"locator\":\"xpath=./div[2]/div/div/div[3]/div/div/span/ul/li[contains(@class,'actualPrice price fakeLink')]\",\"desc\":\"search price\"}
+searchName = {\"locator\":\"xpath=./h3\",\"desc\":\"search Name\"}
+link.search.click = {\"locator\":\"xpath=.//div[2]/div[1]/a\",\"desc\":\"click on serarch result\"}
+
+

@@ -1,0 +1,141 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "userOpensOrbitzSite",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://www.orbitz.com}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 6591
+        },
+        {
+          "commandName": "maximizeWindow",
+          "args": [
+            "{windowHandle=current}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1143
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "userSelectAnd",
+      "args": [
+        "[${origin}, ${destination}]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=package-origin, using=id}"
+          ],
+          "result": "id: 0.3660708247844848-1",
+          "subLogs": [],
+          "duration": 99
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.id: package-origin",
+            "{\"id\":\"0.3660708247844848-1\",\"value\":[\"Pune, India (PNQ-Lohegaon)\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 777
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=package-destination, using=id}"
+          ],
+          "result": "id: 0.3660708247844848-2",
+          "subLogs": [],
+          "duration": 24
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.id: package-destination",
+            "{\"id\":\"0.3660708247844848-2\",\"value\":[\"Mumbai, India\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 425
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "userSelectDateForAnd",
+      "args": [
+        "[25, 26]"
+      ],
+      "result": "fail",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=package-departing, using=id}"
+          ],
+          "result": "id: 0.3660708247844848-3",
+          "subLogs": [],
+          "duration": 84
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: package-departing",
+            "{\"id\":\"0.3660708247844848-3\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 224
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given user opens Orbitz site",
+      "type": "TestStepPass",
+      "duration": 11017,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When user select 'Pune, India (PNQ-Lohegaon)' and 'Mumbai, India'",
+      "type": "TestStepPass",
+      "duration": 1369,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When user select date for '25' and '26'",
+      "type": "TestStepFail",
+      "screenshot": "test-results/19_Jan_2018_11_24_AM/img/I open Orbtiz WebSite_1tzl8yvcukjz347055.png",
+      "duration": 324,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "type": "Fail",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ],
+  "errorTrace": "java.lang.NullPointerException\r\n\tat .When user select date for '25' and '26'(scenarios/suite1.bdd:11)\r\n\tat java.util.regex.Matcher.getTextLength(Matcher.java:1283)\r\n\tat java.util.regex.Matcher.reset(Matcher.java:309)\r\n\tat java.util.regex.Matcher.<init>(Matcher.java:229)\r\n\tat java.util.regex.Pattern.matcher(Pattern.java:1093)\r\n\tat java.util.Formatter.parse(Formatter.java:2547)\r\n\tat java.util.Formatter.format(Formatter.java:2501)\r\n\tat java.util.Formatter.format(Formatter.java:2455)\r\n\tat java.lang.String.format(String.java:2940)\r\n\tat com.assign.pages.HomePage.selectDeptDate(HomePage.java:100)\r\n\tat com.qaf.assignment_3.StepsBackLog.userSelectDateForAnd_aroundBody4(StepsBackLog.java:30)\r\n\tat com.qmetry.qaf.automation.step.JavaStepReporter.javaTestStep(JavaStepReporter.java:101)\r\n\tat com.qaf.assignment_3.StepsBackLog.userSelectDateForAnd(StepsBackLog.java:28)\r\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:160)\r\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\r\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:167)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:219)\r\n"
+}

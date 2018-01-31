@@ -1,0 +1,96 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "userOpensOrbitzSite",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://www.orbitz.com}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 11135
+        },
+        {
+          "commandName": "maximizeWindow",
+          "args": [
+            "{windowHandle=current}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1143
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "userSelectAnd",
+      "args": [
+        "[${origin}, ${destination}]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=package-origin, using=id}"
+          ],
+          "result": "id: 0.6781826087512293-1",
+          "subLogs": [],
+          "duration": 78
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.id: package-origin",
+            "{\"id\":\"0.6781826087512293-1\",\"value\":[\"Pune, India (PNQ-Lohegaon)\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 900
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=package-destination, using=id}"
+          ],
+          "result": "id: 0.6781826087512293-2",
+          "subLogs": [],
+          "duration": 34
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.id: package-destination",
+            "{\"id\":\"0.6781826087512293-2\",\"value\":[\"Mumbai, India\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 458
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given user opens Orbitz site",
+      "type": "TestStepPass",
+      "duration": 15662,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When user select 'Pune, India (PNQ-Lohegaon)' and 'Mumbai, India'",
+      "type": "TestStepPass",
+      "duration": 1502,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

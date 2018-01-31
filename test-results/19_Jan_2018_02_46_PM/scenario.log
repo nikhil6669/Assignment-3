@@ -1,0 +1,24 @@
+14:46:31 scenario.file.loc[Ljava.lang.String;@1ad282e0
+14:46:31 loading BDD file: scenarios/suite1.bdd
+14:46:31 total test found: 1
+14:46:31 
+
+Executing scenario: I open Orbtiz WebSite - End To End Test
+14:46:31 pkg: com.qmetry.qaf.automation.step
+14:46:31 pkg: com.qaf.assignment_3
+14:46:31 Found duplicate step to load [] with [lower] prority then []
+14:46:31 Found duplicate step to load [] with [lower] prority then []
+14:46:31 Found duplicate step to load [] with [lower] prority then []
+14:46:31 Invoking Teststep: Given user opens Orbitz site
+14:46:45 Completed Teststep: Given user opens Orbitz site
+14:46:45 Invoking Teststep: When user select '${origin}' and '${destination}' with arguments: [${origin}, ${destination}]
+14:46:46 Completed Teststep: When user select 'Pune, India (PNQ-Lohegaon)' and 'Mumbai, India' with arguments: [${origin}, ${destination}]
+14:46:46 Invoking Teststep: When user select date for '${departing}' and '${returning}' with arguments: [${departing}, ${returning}]
+14:46:47 Completed Teststep: When user select date for '25' and '26' with arguments: [${departing}, ${returning}]
+14:46:47 Invoking Teststep: When user select number of '${}' and their '${}' with arguments: [${}, ${}]
+14:46:47 Failure Teststep: When user select number of '${}' and their '${}' with arguments: [${}, ${}]
+com.qmetry.qaf.automation.step.StepInvocationException: Unable to invoke JavaStep with given arguments: userSelectNumberOfAndTheir[${}, ${}]
+at 
+	at com.qaf.assignment_3.StepsBackLog.userSelectNumberOfAndTheir(com.qaf.assignment_3.StepsBackLog:0)
+14:46:47 Completed Teststep: When user select number of '${}' and their '${}' with arguments: [${}, ${}]
+14:46:47 Competed scenario: I open Orbtiz WebSite with status FAILURE

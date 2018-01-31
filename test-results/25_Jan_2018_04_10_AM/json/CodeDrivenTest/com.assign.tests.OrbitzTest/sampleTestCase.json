@@ -1,0 +1,536 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "{url=https://www.orbitz.com}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 7511
+    },
+    {
+      "commandName": "maximizeWindow",
+      "args": [
+        "{windowHandle=current}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 1151
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=package-origin, using=id}"
+      ],
+      "result": "id: 0.5003513557478345-1",
+      "subLogs": [],
+      "duration": 146
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.id: package-origin",
+        "{\"id\":\"0.5003513557478345-1\",\"value\":[\"Pune, India (PNQ-Lohegaon)\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 854
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=package-destination, using=id}"
+      ],
+      "result": "id: 0.5003513557478345-2",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.id: package-destination",
+        "{\"id\":\"0.5003513557478345-2\",\"value\":[\"Mumbai, India\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 360
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=package-departing, using=id}"
+      ],
+      "result": "id: 0.5003513557478345-3",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.id: package-departing",
+        "{\"id\":\"0.5003513557478345-3\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 134
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=.//*[@id='package-departing-wrapper']/div/div/div[2]/table/tbody/tr[4]/td[5]/button, using=xpath}"
+      ],
+      "result": "id: 0.5003513557478345-4",
+      "subLogs": [],
+      "duration": 54
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: .//*[@id='package-departing-wrapper']/div/div/div[2]/table/tbody/tr[4]/td[5]/button",
+        "{\"id\":\"0.5003513557478345-4\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 219
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=package-returning, using=id}"
+      ],
+      "result": "id: 0.5003513557478345-5",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.id: package-returning",
+        "{\"id\":\"0.5003513557478345-5\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 123
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=.//*[@id='package-returning-wrapper']/div/div/div[2]/table/tbody/tr[4]/td[6]/button, using=xpath}"
+      ],
+      "result": "id: 0.5003513557478345-6",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: .//*[@id='package-returning-wrapper']/div/div/div[2]/table/tbody/tr[4]/td[6]/button",
+        "{\"id\":\"0.5003513557478345-6\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 104
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=package-1-children, using=id}"
+      ],
+      "result": "id: 0.5003513557478345-7",
+      "subLogs": [],
+      "duration": 28
+    },
+    {
+      "commandName": "getElementTagName",
+      "args": [
+        "By.id: package-1-children",
+        "{\"id\":\"0.5003513557478345-7\"}"
+      ],
+      "result": "getElementTagName:select",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=package-1-children, using=id}"
+      ],
+      "result": "id: 0.5003513557478345-7",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "getElementAttribute",
+      "args": [
+        "By.id: package-1-children",
+        "{\"name\":\"multiple\",\"id\":\"0.5003513557478345-7\"}"
+      ],
+      "result": "getElementAttribute:null",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=package-1-children, using=id}"
+      ],
+      "result": "id: 0.5003513557478345-7",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.id: package-1-children",
+        "{\"using\":\"xpath\",\"id\":\"0.5003513557478345-7\",\"value\":\".//option[@value = \\\"1\\\"]\"}"
+      ],
+      "result": "findChildElements:[id: 0.5003513557478345-8]",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "isElementSelected",
+      "args": [
+        "id: 0.5003513557478345-8",
+        "{\"id\":\"0.5003513557478345-8\"}"
+      ],
+      "result": "isElementSelected:false",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "id: 0.5003513557478345-8",
+        "{\"id\":\"0.5003513557478345-8\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 136
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=package-1-age-select-1, using=id}"
+      ],
+      "result": "id: 0.5003513557478345-9",
+      "subLogs": [],
+      "duration": 28
+    },
+    {
+      "commandName": "getElementTagName",
+      "args": [
+        "By.id: package-1-age-select-1",
+        "{\"id\":\"0.5003513557478345-9\"}"
+      ],
+      "result": "getElementTagName:select",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=package-1-age-select-1, using=id}"
+      ],
+      "result": "id: 0.5003513557478345-9",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "getElementAttribute",
+      "args": [
+        "By.id: package-1-age-select-1",
+        "{\"name\":\"multiple\",\"id\":\"0.5003513557478345-9\"}"
+      ],
+      "result": "getElementAttribute:null",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=package-1-age-select-1, using=id}"
+      ],
+      "result": "id: 0.5003513557478345-9",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.id: package-1-age-select-1",
+        "{\"using\":\"xpath\",\"id\":\"0.5003513557478345-9\",\"value\":\".//option[@value = \\\"3\\\"]\"}"
+      ],
+      "result": "findChildElements:[id: 0.5003513557478345-10]",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "isElementSelected",
+      "args": [
+        "id: 0.5003513557478345-10",
+        "{\"id\":\"0.5003513557478345-10\"}"
+      ],
+      "result": "isElementSelected:false",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "id: 0.5003513557478345-10",
+        "{\"id\":\"0.5003513557478345-10\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 87
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=search-button, using=id}"
+      ],
+      "result": "id: 0.5003513557478345-11",
+      "subLogs": [],
+      "duration": 53
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.id: search-button",
+        "{\"id\":\"0.5003513557478345-11\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 1853
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=.//article[contains(@class,'hotel listing')], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 70
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=.//article[contains(@class,'hotel listing')], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 33
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=.//article[contains(@class,'hotel listing')], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 55
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=.//article[contains(@class,'hotel listing')], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 30
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=.//article[contains(@class,'hotel listing')], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 49
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=.//article[contains(@class,'hotel listing')], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 37
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=.//article[contains(@class,'hotel listing')], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=.//article[contains(@class,'hotel listing')], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 47
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=.//article[contains(@class,'hotel listing')], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 51
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=.//article[contains(@class,'hotel listing')], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 43
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=.//article[contains(@class,'hotel listing')], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 45
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=.//article[contains(@class,'hotel listing')], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=.//article[contains(@class,'hotel listing')], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 146
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=.//article[contains(@class,'hotel listing')], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 50
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=.//article[contains(@class,'hotel listing')], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 1014
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=.//article[contains(@class,'hotel listing')], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=.//article[contains(@class,'hotel listing')], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 32
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=.//article[contains(@class,'hotel listing')], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 269
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=.//article[contains(@class,'hotel listing')], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 17
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=.//article[contains(@class,'hotel listing')], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 36
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=.//article[contains(@class,'hotel listing')], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 32
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=.//article[contains(@class,'hotel listing')], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=.//article[contains(@class,'hotel listing')], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 5426
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=.//article[contains(@class,'hotel listing')], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 12
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Timed out after 30 seconds: Wait timeout for list of search result with size 4\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12770', ip: '10.11.28.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_152'\nDriver info: driver.version: unknown",
+      "type": "Fail",
+      "screenshot": "../img/sampleTestCase_7kyyrgcy8tzm26592.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "org.openqa.selenium.TimeoutException: Timed out after 30 seconds: Wait timeout for list of search result with size 4\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12770', ip: '10.11.28.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_152'\nDriver info: driver.version: unknown\r\n\tat org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:292)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.ComponentListHandler.invoke(ComponentListHandler.java:83)\r\n\tat com.sun.proxy.$Proxy15.get(Unknown Source)\r\n\tat com.assign.pages.SearchPage.findName(SearchPage.java:24)\r\n\tat com.assign.tests.OrbitzTest.sampleTestCase(OrbitzTest.java:30)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:645)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:781)\r\n\tat org.testng.TestRunner.run(TestRunner.java:635)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:387)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:289)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1218)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1133)\r\n\tat org.testng.TestNG.run(TestNG.java:1104)\r\n\tat org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)\r\n\tat org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)\r\n\tat org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)\r\n"
+}

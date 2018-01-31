@@ -1,0 +1,24 @@
+14:58:53 scenario.file.loc[Ljava.lang.String;@1ad282e0
+14:58:53 loading BDD file: scenarios/suite1.bdd
+14:58:53 total test found: 1
+14:58:53 
+
+Executing scenario: I open Orbtiz WebSite - End To End Test
+14:58:53 pkg: com.qmetry.qaf.automation.step
+14:58:53 pkg: com.qaf.assignment_3
+14:58:53 Found duplicate step to load [] with [lower] prority then []
+14:58:53 Found duplicate step to load [] with [lower] prority then []
+14:58:53 Found duplicate step to load [] with [lower] prority then []
+14:58:53 Invoking Teststep: Given user opens Orbitz site
+14:59:04 Completed Teststep: Given user opens Orbitz site
+14:59:04 Invoking Teststep: When user select '${origin}' and '${destination}' with arguments: [${origin}, ${destination}]
+14:59:05 Completed Teststep: When user select 'Pune, India (PNQ-Lohegaon)' and 'Mumbai, India' with arguments: [${origin}, ${destination}]
+14:59:06 Invoking Teststep: When user select date for '${departing}' and '${returning}' with arguments: [${departing}, ${returning}]
+14:59:06 Completed Teststep: When user select date for '25' and '26' with arguments: [${departing}, ${returning}]
+14:59:06 Invoking Teststep: When user select number of '${childrens}' and their '${age}' with arguments: [${childrens}, ${age}]
+14:59:07 Completed Teststep: When user select number of '1' and their '6' with arguments: [${childrens}, ${age}]
+14:59:07 Invoking Teststep: Then click button is clicked
+14:59:08 Completed Teststep: Then click button is clicked
+14:59:08 Invoking Teststep: And user verifys search result
+14:59:26 Completed Teststep: And user verifys search result
+14:59:26 Competed scenario: I open Orbtiz WebSite with status SUCESS

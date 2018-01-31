@@ -1,0 +1,27 @@
+{
+  "methods": [
+    {
+      "index": 0,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "End To End flow",
+        "groups": [
+          "P1",
+          "P2",
+          "SMOKE"
+        ],
+        "key": "location",
+        "lineNo": 29,
+        "name": "I open Orbtiz application2",
+        "referece": "scenarios/suite1.bdd",
+        "sign": "scenarios.suite1.bdd.I open Orbtiz application2( java.util.Map)[pri:1001, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]"
+      },
+      "dependsOn": [],
+      "startTime": 1516355941387,
+      "duration": 0,
+      "result": "skip",
+      "passPer": 0.0
+    }
+  ]
+}

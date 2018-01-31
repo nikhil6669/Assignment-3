@@ -1,0 +1,134 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "2": "\" Thailand\"\"\"",
+          "dest": " India (BOM-Chhatrapati Shivaji Intl.)\t\"\"Bangkok\"",
+          "origin": "\"Mumbai"
+        }
+      ],
+      "metaData": {
+        "dataFile": "resources/Input.csv",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "",
+        "name": "userSelectAnd",
+        "sheetName": "",
+        "sign": "OrbtizTestCSV.userSelectAnd(java.util.Map)[pri:0, instance:com.assign.tests.OrbtizTestCSV@3b6d844d]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1516799987173,
+      "duration": 14315,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "dest": "Pune",
+          "origin": "Mumbai"
+        }
+      ],
+      "metaData": {
+        "dataFile": "resources/Input.csv",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "",
+        "name": "userSelectAnd",
+        "resultFileName": "userSelectAndKAIIyjxZFr",
+        "sheetName": "",
+        "sign": "OrbtizTestCSV.userSelectAnd(java.util.Map)[pri:0, instance:com.assign.tests.OrbtizTestCSV@3b6d844d]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1516800109450,
+      "duration": 9449,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "dest": "Pune",
+          "origin": "Mumbai"
+        }
+      ],
+      "metaData": {
+        "dataFile": "resources/Input.csv",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "",
+        "name": "userSelectAnd",
+        "resultFileName": "userSelectAndyeMWqXiWTW",
+        "sheetName": "",
+        "sign": "OrbtizTestCSV.userSelectAnd(java.util.Map)[pri:0, instance:com.assign.tests.OrbtizTestCSV@3b6d844d]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1516800174607,
+      "duration": 10062,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 2,
+      "type": "test",
+      "args": [
+        {
+          "dest": "mumbai",
+          "origin": "bali"
+        }
+      ],
+      "metaData": {
+        "dataFile": "resources/Input.csv",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "",
+        "name": "userSelectAnd",
+        "resultFileName": "userSelectAndNEWduCxBuu",
+        "sheetName": "",
+        "sign": "OrbtizTestCSV.userSelectAnd(java.util.Map)[pri:0, instance:com.assign.tests.OrbtizTestCSV@3b6d844d]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1516800184692,
+      "duration": 6272,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 3,
+      "type": "test",
+      "args": [
+        {
+          "dest": "bali",
+          "origin": "munbai"
+        }
+      ],
+      "metaData": {
+        "dataFile": "resources/Input.csv",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "",
+        "name": "userSelectAnd",
+        "resultFileName": "userSelectAndseyfYidIUx",
+        "sheetName": "",
+        "sign": "OrbtizTestCSV.userSelectAnd(java.util.Map)[pri:0, instance:com.assign.tests.OrbtizTestCSV@3b6d844d]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1516800190976,
+      "duration": 6589,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

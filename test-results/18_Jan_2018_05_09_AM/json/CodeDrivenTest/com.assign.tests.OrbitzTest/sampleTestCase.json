@@ -1,0 +1,487 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "{url=https://www.orbitz.com}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 6247
+    },
+    {
+      "commandName": "maximizeWindow",
+      "args": [
+        "{windowHandle=current}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 1134
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=package-origin, using=id}"
+      ],
+      "result": "id: 0.4776360786727458-1",
+      "subLogs": [],
+      "duration": 32
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.id: package-origin",
+        "{\"id\":\"0.4776360786727458-1\",\"value\":[\"Pune, India (PNQ-Lohegaon)\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 772
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=package-destination, using=id}"
+      ],
+      "result": "id: 0.4776360786727458-2",
+      "subLogs": [],
+      "duration": 32
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.id: package-destination",
+        "{\"id\":\"0.4776360786727458-2\",\"value\":[\"Mumbai, India\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 424
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=package-departing, using=id}"
+      ],
+      "result": "id: 0.4776360786727458-3",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.id: package-departing",
+        "{\"id\":\"0.4776360786727458-3\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 149
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=.//*[@id='package-departing-wrapper']/div/div/div[2]/table/tbody/tr[4]/td[5]/button, using=xpath}"
+      ],
+      "result": "id: 0.4776360786727458-4",
+      "subLogs": [],
+      "duration": 36
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: .//*[@id='package-departing-wrapper']/div/div/div[2]/table/tbody/tr[4]/td[5]/button",
+        "{\"id\":\"0.4776360786727458-4\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 140
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=package-returning, using=id}"
+      ],
+      "result": "id: 0.4776360786727458-5",
+      "subLogs": [],
+      "duration": 28
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.id: package-returning",
+        "{\"id\":\"0.4776360786727458-5\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 128
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=.//*[@id='package-returning-wrapper']/div/div/div[2]/table/tbody/tr[4]/td[6]/button, using=xpath}"
+      ],
+      "result": "id: 0.4776360786727458-6",
+      "subLogs": [],
+      "duration": 36
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: .//*[@id='package-returning-wrapper']/div/div/div[2]/table/tbody/tr[4]/td[6]/button",
+        "{\"id\":\"0.4776360786727458-6\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 128
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=package-1-children, using=id}"
+      ],
+      "result": "id: 0.4776360786727458-7",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "getElementTagName",
+      "args": [
+        "By.id: package-1-children",
+        "{\"id\":\"0.4776360786727458-7\"}"
+      ],
+      "result": "getElementTagName:select",
+      "subLogs": [],
+      "duration": 8
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=package-1-children, using=id}"
+      ],
+      "result": "id: 0.4776360786727458-7",
+      "subLogs": [],
+      "duration": 8
+    },
+    {
+      "commandName": "getElementAttribute",
+      "args": [
+        "By.id: package-1-children",
+        "{\"name\":\"multiple\",\"id\":\"0.4776360786727458-7\"}"
+      ],
+      "result": "getElementAttribute:null",
+      "subLogs": [],
+      "duration": 8
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=package-1-children, using=id}"
+      ],
+      "result": "id: 0.4776360786727458-7",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.id: package-1-children",
+        "{\"using\":\"xpath\",\"id\":\"0.4776360786727458-7\",\"value\":\".//option[@value = \\\"1\\\"]\"}"
+      ],
+      "result": "findChildElements:[id: 0.4776360786727458-8]",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "isElementSelected",
+      "args": [
+        "id: 0.4776360786727458-8",
+        "{\"id\":\"0.4776360786727458-8\"}"
+      ],
+      "result": "isElementSelected:false",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "id: 0.4776360786727458-8",
+        "{\"id\":\"0.4776360786727458-8\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 128
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=package-1-age-select-1, using=id}"
+      ],
+      "result": "id: 0.4776360786727458-9",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementTagName",
+      "args": [
+        "By.id: package-1-age-select-1",
+        "{\"id\":\"0.4776360786727458-9\"}"
+      ],
+      "result": "getElementTagName:select",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=package-1-age-select-1, using=id}"
+      ],
+      "result": "id: 0.4776360786727458-9",
+      "subLogs": [],
+      "duration": 8
+    },
+    {
+      "commandName": "getElementAttribute",
+      "args": [
+        "By.id: package-1-age-select-1",
+        "{\"name\":\"multiple\",\"id\":\"0.4776360786727458-9\"}"
+      ],
+      "result": "getElementAttribute:null",
+      "subLogs": [],
+      "duration": 0
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=package-1-age-select-1, using=id}"
+      ],
+      "result": "id: 0.4776360786727458-9",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.id: package-1-age-select-1",
+        "{\"using\":\"xpath\",\"id\":\"0.4776360786727458-9\",\"value\":\".//option[@value = \\\"3\\\"]\"}"
+      ],
+      "result": "findChildElements:[id: 0.4776360786727458-10]",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "isElementSelected",
+      "args": [
+        "id: 0.4776360786727458-10",
+        "{\"id\":\"0.4776360786727458-10\"}"
+      ],
+      "result": "isElementSelected:false",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "id: 0.4776360786727458-10",
+        "{\"id\":\"0.4776360786727458-10\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 85
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=search-button, using=id}"
+      ],
+      "result": "id: 0.4776360786727458-11",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.id: search-button",
+        "{\"id\":\"0.4776360786727458-11\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 1446
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=.//article[contains(@class,'hotel listing')], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 34
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=.//article[contains(@class,'hotel listing')], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=.//article[contains(@class,'hotel listing')], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 7
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=.//article[contains(@class,'hotel listing')], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 5
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=.//article[contains(@class,'hotel listing')], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=.//article[contains(@class,'hotel listing')], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=.//article[contains(@class,'hotel listing')], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 17
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=.//article[contains(@class,'hotel listing')], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=.//article[contains(@class,'hotel listing')], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=.//article[contains(@class,'hotel listing')], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=.//article[contains(@class,'hotel listing')], using=xpath}"
+      ],
+      "result": "[id: 0.3482097328250313-1, id: 0.3482097328250313-2, id: 0.3482097328250313-3, id: 0.3482097328250313-4, id: 0.3482097328250313-5]",
+      "subLogs": [],
+      "duration": 918
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.xpath: .//article[contains(@class,'hotel listing')]",
+        "{\"using\":\"xpath\",\"id\":\"0.3482097328250313-1\",\"value\":\"./h3\"}"
+      ],
+      "result": "findChildElements:[id: 0.3482097328250313-6]",
+      "subLogs": [],
+      "duration": 709
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=.//article[contains(@class,'hotel listing')], using=xpath}"
+      ],
+      "result": "[id: 0.3482097328250313-1, id: 0.3482097328250313-2, id: 0.3482097328250313-3, id: 0.3482097328250313-4, id: 0.3482097328250313-5, id: 0.3482097328250313-7, id: 0.3482097328250313-8, id: 0.3482097328250313-9, id: 0.3482097328250313-10, id: 0.3482097328250313-11, id: 0.3482097328250313-12, id: 0.3482097328250313-13, id: 0.3482097328250313-14, id: 0.3482097328250313-15, id: 0.3482097328250313-16, id: 0.3482097328250313-17, id: 0.3482097328250313-18, id: 0.3482097328250313-19, id: 0.3482097328250313-20, id: 0.3482097328250313-21, id: 0.3482097328250313-22, id: 0.3482097328250313-23, id: 0.3482097328250313-24, id: 0.3482097328250313-25, id: 0.3482097328250313-26, id: 0.3482097328250313-27, id: 0.3482097328250313-28, id: 0.3482097328250313-29, id: 0.3482097328250313-30, id: 0.3482097328250313-31, id: 0.3482097328250313-32, id: 0.3482097328250313-33, id: 0.3482097328250313-34, id: 0.3482097328250313-35, id: 0.3482097328250313-36, id: 0.3482097328250313-37, id: 0.3482097328250313-38, id: 0.3482097328250313-39, id: 0.3482097328250313-40, id: 0.3482097328250313-41, id: 0.3482097328250313-42, id: 0.3482097328250313-43, id: 0.3482097328250313-44, id: 0.3482097328250313-45, id: 0.3482097328250313-46, id: 0.3482097328250313-47, id: 0.3482097328250313-48, id: 0.3482097328250313-49, id: 0.3482097328250313-50, id: 0.3482097328250313-51, id: 0.3482097328250313-52]",
+      "subLogs": [],
+      "duration": 70
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: .//article[contains(@class,'hotel listing')]",
+        "{\"using\":\"xpath\",\"id\":\"0.3482097328250313-1\",\"value\":\"./h3\"}"
+      ],
+      "result": "findChildElement:id: 0.3482097328250313-6",
+      "subLogs": [],
+      "duration": 53
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: ./h3",
+        "{\"id\":\"0.3482097328250313-6\"}"
+      ],
+      "result": "getElementText:The St. Regis Mumbai",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=.//article[contains(@class,'hotel listing')], using=xpath}"
+      ],
+      "result": "[id: 0.3482097328250313-1, id: 0.3482097328250313-2, id: 0.3482097328250313-3, id: 0.3482097328250313-4, id: 0.3482097328250313-5, id: 0.3482097328250313-7, id: 0.3482097328250313-8, id: 0.3482097328250313-9, id: 0.3482097328250313-10, id: 0.3482097328250313-11, id: 0.3482097328250313-12, id: 0.3482097328250313-13, id: 0.3482097328250313-14, id: 0.3482097328250313-15, id: 0.3482097328250313-16, id: 0.3482097328250313-17, id: 0.3482097328250313-18, id: 0.3482097328250313-19, id: 0.3482097328250313-20, id: 0.3482097328250313-21, id: 0.3482097328250313-22, id: 0.3482097328250313-23, id: 0.3482097328250313-24, id: 0.3482097328250313-25, id: 0.3482097328250313-26, id: 0.3482097328250313-27, id: 0.3482097328250313-28, id: 0.3482097328250313-29, id: 0.3482097328250313-30, id: 0.3482097328250313-31, id: 0.3482097328250313-32, id: 0.3482097328250313-33, id: 0.3482097328250313-34, id: 0.3482097328250313-35, id: 0.3482097328250313-36, id: 0.3482097328250313-37, id: 0.3482097328250313-38, id: 0.3482097328250313-39, id: 0.3482097328250313-40, id: 0.3482097328250313-41, id: 0.3482097328250313-42, id: 0.3482097328250313-43, id: 0.3482097328250313-44, id: 0.3482097328250313-45, id: 0.3482097328250313-46, id: 0.3482097328250313-47, id: 0.3482097328250313-48, id: 0.3482097328250313-49, id: 0.3482097328250313-50, id: 0.3482097328250313-51, id: 0.3482097328250313-52]",
+      "subLogs": [],
+      "duration": 129
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.xpath: .//article[contains(@class,'hotel listing')]",
+        "{\"using\":\"xparh\",\"id\":\"0.3482097328250313-1\",\"value\":\"./div[2]/div/div/div[3]/div/div/span/ul/li[contains(@class,'actualPrice price fakeLink')]\"}"
+      ],
+      "result": "unknown error: Unsupported locator strategy: xparh\n  (Session info: chrome=63.0.3239.84)\n  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 3.27 seconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12770', ip: '10.11.28.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_152'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\\Users\\NIKHIL~1.BHA\\AppData\\Local\\Temp\\scoped_dir35244_16290}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.84, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]\nSession ID: fc3e03b96b8039d5abc3bbc0e38dcb9d\n*** Element info: {Using=xparh, value=./div[2]/div/div/div[3]/div/div/span/ul/li[contains(@class,'actualPrice price fakeLink')]}",
+      "subLogs": [],
+      "duration": 3273
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "[unknown locator]",
+        "{\"id\":\"-1\"}"
+      ],
+      "result": "unknown error: Unsupported locator strategy: xparh\n  (Session info: chrome=63.0.3239.84)\n  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 3.27 seconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12770', ip: '10.11.28.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_152'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\\Users\\NIKHIL~1.BHA\\AppData\\Local\\Temp\\scoped_dir35244_16290}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.84, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]\nSession ID: fc3e03b96b8039d5abc3bbc0e38dcb9d\n*** Element info: {Using=xparh, value=./div[2]/div/div/div[3]/div/div/span/ul/li[contains(@class,'actualPrice price fakeLink')]}",
+      "subLogs": [],
+      "duration": 128740373
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "unknown error: Unsupported locator strategy: xparh\n  (Session info: chrome=63.0.3239.84)\n  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 3.27 seconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12770', ip: '10.11.28.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_152'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\\Users\\NIKHIL~1.BHA\\AppData\\Local\\Temp\\scoped_dir35244_16290}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.84, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]\nSession ID: fc3e03b96b8039d5abc3bbc0e38dcb9d\n*** Element info: {Using=xparh, value=./div[2]/div/div/div[3]/div/div/span/ul/li[contains(@class,'actualPrice price fakeLink')]}",
+      "type": "Fail",
+      "screenshot": "../img/sampleTestCase_rey71p0on76v53300.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "org.openqa.selenium.WebDriverException: unknown error: Unsupported locator strategy: xparh\n  (Session info: chrome=63.0.3239.84)\n  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 3.27 seconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12770', ip: '10.11.28.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_152'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\\Users\\NIKHIL~1.BHA\\AppData\\Local\\Temp\\scoped_dir35244_16290}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.84, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]\nSession ID: fc3e03b96b8039d5abc3bbc0e38dcb9d\n*** Element info: {Using=xparh, value=./div[2]/div/div/div[3]/div/div/span/ul/li[contains(@class,'actualPrice price fakeLink')]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.executeWitoutLog(QAFExtendedWebDriver.java:256)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.execute(QAFExtendedWebElement.java:252)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.findElements(RemoteWebElement.java:214)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.findElementsByCustomStretegy(QAFExtendedWebElement.java:1168)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.ByCustom.findElements(ByCustom.java:53)\r\n\tat org.openqa.selenium.By.findElement(By.java:159)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.findElement(RemoteWebElement.java:194)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.findElement(QAFExtendedWebElement.java:409)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.load(QAFExtendedWebElement.java:286)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.execute(QAFExtendedWebElement.java:239)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:179)\r\n\tat com.assign.pages.SearchPage.findPrice(SearchPage.java:30)\r\n\tat com.assign.tests.OrbitzTest.sampleTestCase(OrbitzTest.java:33)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:645)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:781)\r\n\tat org.testng.TestRunner.run(TestRunner.java:635)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:387)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:289)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1218)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1133)\r\n\tat org.testng.TestNG.run(TestNG.java:1104)\r\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:122)\r\n\tat org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)\r\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:101)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)\r\n\tat org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)\r\n\tat org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:172)\r\n\tat org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:104)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:70)\r\n"
+}

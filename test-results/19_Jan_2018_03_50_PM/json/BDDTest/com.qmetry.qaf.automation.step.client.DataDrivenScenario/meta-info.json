@@ -1,0 +1,61 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "origin": "Pune, India (PNQ-Lohegaon)",
+          "destination": "Mumbai, India"
+        }
+      ],
+      "metaData": {
+        "description": "End To End flow",
+        "groups": [
+          "P1",
+          "P2",
+          "SMOKE"
+        ],
+        "key": "place",
+        "lineNo": 26.0,
+        "name": "I open Orbtiz application2",
+        "referece": "scenarios/suite1.bdd",
+        "sign": "scenarios.suite1.bdd.I open Orbtiz application2( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1516357248801,
+      "duration": 17444,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 2,
+      "type": "test",
+      "args": [
+        {
+          "origin": "Pune, India (PNQ-Lohegaon)",
+          "destination": "Kolkata, India"
+        }
+      ],
+      "metaData": {
+        "description": "End To End flow",
+        "groups": [
+          "P1",
+          "P2",
+          "SMOKE"
+        ],
+        "key": "place",
+        "lineNo": 26,
+        "name": "I open Orbtiz application2",
+        "referece": "scenarios/suite1.bdd",
+        "resultFileName": "I open Orbtiz application2vgJKnPBKQs",
+        "sign": "scenarios.suite1.bdd.I open Orbtiz application2( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1516357266275,
+      "duration": 6307,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

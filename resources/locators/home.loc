@@ -1,0 +1,26 @@
+txtbox.origin.homepage = {\"locator\":\"id=package-origin\",\"desc\":\"enter origin\"}
+input.origin.homepage = {\"locator\":\"Pune, India (PNQ-Lohegaon)\",\"desc\":\"enter text in origin\"}
+txtbox.destination.homepage = {\"locator\":\"id=package-destination\",\"desc\":\"enter destination\"}
+input.destination.homepage = {\"locator\":\"Dubai, United Arab Emirates\",\"desc\":\"enter text in origin\"}
+
+date.departing.homepage = {\"locator\":\"id=package-departing\",\"desc\":\"click on departing date\"}
+date.select.departing.homepage = {\"locator\":\"xpath=.//*[@id='package-departing-wrapper']/div/div/div[2]/table/tbody/tr[5]/td[2]/button\",\"desc\":\"select date for departing\"}
+
+date.returning.homepage = {\"locator\":\"id=package-returning\",\"desc\":\"click on departing date\"}
+date.select.returning.homepage = {\"locator\":\"xpath=.//*[@id='package-returning-wrapper']/div/div/div[2]/table/tbody/tr[5]/td[4]/button\",\"desc\":\"select date for returning\"}
+
+dropdown.children.num.homepage = {\"locator\":\"id=package-1-children\",\"desc\":\"select number of childrens\"}
+dropdown.children.age.homepage = {\"locator\":\"id=package-1-age-select-1\",\"desc\":\"select age of the children\"}
+
+dropdown.advance.homepage = {\"locator\":\"id=package-advanced-preferred-class\",\"desc\":\"select advance options\"}
+
+button.search.homepage = {\"locator\":\"id=search-button\",\"desc\":\"click on search button\"}
+date.dym.departing.homepage = {\"locator\":\"xpath=.//*[@id='package-departing-wrapper']/div/div/div[2]/table/tbody/tr/td/button[contains(text(),'%s')]\",\"desc\":\"click depating date dynamically\"}
+date.dym.returning.homepage = {\"locator\":\"xpath=.//*[@id='package-returning-wrapper']/div/div/div[2]/table/tbody/tr/td/button[contains(text(),'%s')]\",\"desc\":\"click returning date dynamically\"}
+
+
+
+
+
+
+

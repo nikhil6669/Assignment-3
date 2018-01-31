@@ -1,0 +1,553 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "{url=https://www.orbitz.com}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 7728
+    },
+    {
+      "commandName": "maximizeWindow",
+      "args": [
+        "{windowHandle=current}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 1152
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=package-origin, using=id}"
+      ],
+      "result": "id: 0.6450348191071975-1",
+      "subLogs": [],
+      "duration": 113
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.id: package-origin",
+        "{\"id\":\"0.6450348191071975-1\",\"value\":[\"Pune, India (PNQ-Lohegaon)\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 1212
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=package-destination, using=id}"
+      ],
+      "result": "id: 0.6450348191071975-2",
+      "subLogs": [],
+      "duration": 42
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.id: package-destination",
+        "{\"id\":\"0.6450348191071975-2\",\"value\":[\"Mumbai, India\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 662
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=package-departing, using=id}"
+      ],
+      "result": "id: 0.6450348191071975-3",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.id: package-departing",
+        "{\"id\":\"0.6450348191071975-3\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 201
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=.//*[@id='package-departing-wrapper']/div/div/div[2]/table/tbody/tr[5]/td[2]/button, using=xpath}"
+      ],
+      "result": "id: 0.6450348191071975-4",
+      "subLogs": [],
+      "duration": 36
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: .//*[@id='package-departing-wrapper']/div/div/div[2]/table/tbody/tr[5]/td[2]/button",
+        "{\"id\":\"0.6450348191071975-4\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 204
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=package-returning, using=id}"
+      ],
+      "result": "id: 0.6450348191071975-5",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.id: package-returning",
+        "{\"id\":\"0.6450348191071975-5\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 142
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=.//*[@id='package-returning-wrapper']/div/div/div[2]/table/tbody/tr[5]/td[4]/button, using=xpath}"
+      ],
+      "result": "id: 0.6450348191071975-6",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: .//*[@id='package-returning-wrapper']/div/div/div[2]/table/tbody/tr[5]/td[4]/button",
+        "{\"id\":\"0.6450348191071975-6\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 131
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=package-1-children, using=id}"
+      ],
+      "result": "id: 0.6450348191071975-7",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "getElementTagName",
+      "args": [
+        "By.id: package-1-children",
+        "{\"id\":\"0.6450348191071975-7\"}"
+      ],
+      "result": "getElementTagName:select",
+      "subLogs": [],
+      "duration": 8
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=package-1-children, using=id}"
+      ],
+      "result": "id: 0.6450348191071975-7",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "getElementAttribute",
+      "args": [
+        "By.id: package-1-children",
+        "{\"name\":\"multiple\",\"id\":\"0.6450348191071975-7\"}"
+      ],
+      "result": "getElementAttribute:null",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=package-1-children, using=id}"
+      ],
+      "result": "id: 0.6450348191071975-7",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.id: package-1-children",
+        "{\"using\":\"xpath\",\"id\":\"0.6450348191071975-7\",\"value\":\".//option[@value = \\\"1\\\"]\"}"
+      ],
+      "result": "findChildElements:[id: 0.6450348191071975-8]",
+      "subLogs": [],
+      "duration": 33
+    },
+    {
+      "commandName": "isElementSelected",
+      "args": [
+        "id: 0.6450348191071975-8",
+        "{\"id\":\"0.6450348191071975-8\"}"
+      ],
+      "result": "isElementSelected:false",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "id: 0.6450348191071975-8",
+        "{\"id\":\"0.6450348191071975-8\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 183
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=package-1-age-select-1, using=id}"
+      ],
+      "result": "id: 0.6450348191071975-9",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "getElementTagName",
+      "args": [
+        "By.id: package-1-age-select-1",
+        "{\"id\":\"0.6450348191071975-9\"}"
+      ],
+      "result": "getElementTagName:select",
+      "subLogs": [],
+      "duration": 8
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=package-1-age-select-1, using=id}"
+      ],
+      "result": "id: 0.6450348191071975-9",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "getElementAttribute",
+      "args": [
+        "By.id: package-1-age-select-1",
+        "{\"name\":\"multiple\",\"id\":\"0.6450348191071975-9\"}"
+      ],
+      "result": "getElementAttribute:null",
+      "subLogs": [],
+      "duration": 8
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=package-1-age-select-1, using=id}"
+      ],
+      "result": "id: 0.6450348191071975-9",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.id: package-1-age-select-1",
+        "{\"using\":\"xpath\",\"id\":\"0.6450348191071975-9\",\"value\":\".//option[@value = \\\"3\\\"]\"}"
+      ],
+      "result": "findChildElements:[id: 0.6450348191071975-10]",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "isElementSelected",
+      "args": [
+        "id: 0.6450348191071975-10",
+        "{\"id\":\"0.6450348191071975-10\"}"
+      ],
+      "result": "isElementSelected:false",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "id: 0.6450348191071975-10",
+        "{\"id\":\"0.6450348191071975-10\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 114
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=search-button, using=id}"
+      ],
+      "result": "id: 0.6450348191071975-11",
+      "subLogs": [],
+      "duration": 43
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.id: search-button",
+        "{\"id\":\"0.6450348191071975-11\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 1570
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=.//article[contains(@class,'hotel listing')], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 83
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=.//article[contains(@class,'hotel listing')], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=.//article[contains(@class,'hotel listing')], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=.//article[contains(@class,'hotel listing')], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=.//article[contains(@class,'hotel listing')], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=.//article[contains(@class,'hotel listing')], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 37
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=.//article[contains(@class,'hotel listing')], using=xpath}"
+      ],
+      "result": "[id: 0.5019013928382121-1, id: 0.5019013928382121-2, id: 0.5019013928382121-3, id: 0.5019013928382121-4, id: 0.5019013928382121-5]",
+      "subLogs": [],
+      "duration": 1949
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: .//article[contains(@class,'hotel listing')]",
+        "{\"using\":\"xpath\",\"id\":\"0.5019013928382121-2\",\"value\":\"./h3\"}"
+      ],
+      "result": "findChildElement:id: 0.5019013928382121-6",
+      "subLogs": [],
+      "duration": 640
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: ./h3",
+        "{\"id\":\"0.5019013928382121-6\"}"
+      ],
+      "result": "getElementText:Taj Mahal Tower, Mumbai",
+      "subLogs": [],
+      "duration": 279
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=.//article[contains(@class,'hotel listing')], using=xpath}"
+      ],
+      "result": "[id: 0.5019013928382121-1, id: 0.5019013928382121-2, id: 0.5019013928382121-3, id: 0.5019013928382121-4, id: 0.5019013928382121-5, id: 0.5019013928382121-7, id: 0.5019013928382121-8, id: 0.5019013928382121-9, id: 0.5019013928382121-10, id: 0.5019013928382121-11, id: 0.5019013928382121-12, id: 0.5019013928382121-13, id: 0.5019013928382121-14, id: 0.5019013928382121-15, id: 0.5019013928382121-16, id: 0.5019013928382121-17, id: 0.5019013928382121-18, id: 0.5019013928382121-19, id: 0.5019013928382121-20, id: 0.5019013928382121-21, id: 0.5019013928382121-22, id: 0.5019013928382121-23, id: 0.5019013928382121-24, id: 0.5019013928382121-25, id: 0.5019013928382121-26, id: 0.5019013928382121-27, id: 0.5019013928382121-28, id: 0.5019013928382121-29, id: 0.5019013928382121-30, id: 0.5019013928382121-31, id: 0.5019013928382121-32, id: 0.5019013928382121-33, id: 0.5019013928382121-34, id: 0.5019013928382121-35, id: 0.5019013928382121-36, id: 0.5019013928382121-37, id: 0.5019013928382121-38, id: 0.5019013928382121-39, id: 0.5019013928382121-40, id: 0.5019013928382121-41, id: 0.5019013928382121-42, id: 0.5019013928382121-43, id: 0.5019013928382121-44, id: 0.5019013928382121-45, id: 0.5019013928382121-46, id: 0.5019013928382121-47, id: 0.5019013928382121-48, id: 0.5019013928382121-49, id: 0.5019013928382121-50, id: 0.5019013928382121-51, id: 0.5019013928382121-52, id: 0.5019013928382121-53]",
+      "subLogs": [],
+      "duration": 1047
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: .//article[contains(@class,'hotel listing')]",
+        "{\"using\":\"xpath\",\"id\":\"0.5019013928382121-2\",\"value\":\"./div[2]/div/div/div[3]/div/div/span/ul/li[contains(@class,'actualPrice price fakeLink')]\"}"
+      ],
+      "result": "findChildElement:id: 0.5019013928382121-54",
+      "subLogs": [],
+      "duration": 481
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: ./div[2]/div/div/div[3]/div/div/span/ul/li[contains(@class,'actualPrice price fakeLink')]",
+        "{\"id\":\"0.5019013928382121-54\"}"
+      ],
+      "result": "getElementText:$398",
+      "subLogs": [],
+      "duration": 209
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=.//article[contains(@class,'hotel listing')], using=xpath}"
+      ],
+      "result": "[id: 0.5019013928382121-1, id: 0.5019013928382121-2, id: 0.5019013928382121-3, id: 0.5019013928382121-4, id: 0.5019013928382121-5, id: 0.5019013928382121-7, id: 0.5019013928382121-8, id: 0.5019013928382121-9, id: 0.5019013928382121-10, id: 0.5019013928382121-11, id: 0.5019013928382121-12, id: 0.5019013928382121-13, id: 0.5019013928382121-14, id: 0.5019013928382121-15, id: 0.5019013928382121-16, id: 0.5019013928382121-17, id: 0.5019013928382121-18, id: 0.5019013928382121-19, id: 0.5019013928382121-20, id: 0.5019013928382121-21, id: 0.5019013928382121-22, id: 0.5019013928382121-23, id: 0.5019013928382121-24, id: 0.5019013928382121-25, id: 0.5019013928382121-26, id: 0.5019013928382121-27, id: 0.5019013928382121-28, id: 0.5019013928382121-29, id: 0.5019013928382121-30, id: 0.5019013928382121-31, id: 0.5019013928382121-32, id: 0.5019013928382121-33, id: 0.5019013928382121-34, id: 0.5019013928382121-35, id: 0.5019013928382121-36, id: 0.5019013928382121-37, id: 0.5019013928382121-38, id: 0.5019013928382121-39, id: 0.5019013928382121-40, id: 0.5019013928382121-41, id: 0.5019013928382121-42, id: 0.5019013928382121-43, id: 0.5019013928382121-44, id: 0.5019013928382121-45, id: 0.5019013928382121-46, id: 0.5019013928382121-47, id: 0.5019013928382121-48, id: 0.5019013928382121-49, id: 0.5019013928382121-50, id: 0.5019013928382121-51, id: 0.5019013928382121-52, id: 0.5019013928382121-53]",
+      "subLogs": [],
+      "duration": 1690
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: .//article[contains(@class,'hotel listing')]",
+        "{\"id\":\"0.5019013928382121-2\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 930
+    },
+    {
+      "commandName": "getCurrentWindowHandle",
+      "args": [
+        "{}"
+      ],
+      "result": "CDwindow-(D3B31B0D68F8175929D2A374F623453A)",
+      "subLogs": [],
+      "duration": 8
+    },
+    {
+      "commandName": "getWindowHandles",
+      "args": [
+        "{}"
+      ],
+      "result": "[CDwindow-(D3B31B0D68F8175929D2A374F623453A), CDwindow-(2E8AE03637E874AC27040FBBE3C52D02)]",
+      "subLogs": [],
+      "duration": 41
+    },
+    {
+      "commandName": "switchToWindow",
+      "args": [
+        "{name=CDwindow-(D3B31B0D68F8175929D2A374F623453A)}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 117
+    },
+    {
+      "commandName": "switchToWindow",
+      "args": [
+        "{name=CDwindow-(2E8AE03637E874AC27040FBBE3C52D02)}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 50
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=.//*[@class='section-header-main'], using=xpath}"
+      ],
+      "result": "id: 0.6295863817149943-1",
+      "subLogs": [],
+      "duration": 1241
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: .//*[@class='section-header-main']",
+        "{\"id\":\"0.6295863817149943-1\"}"
+      ],
+      "result": "getElementText:Taj Mahal Tower, Mumbai",
+      "subLogs": [],
+      "duration": 155
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=.//*[@class='section-header-main'], using=xpath}"
+      ],
+      "result": "id: 0.6295863817149943-1",
+      "subLogs": [],
+      "duration": 161
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: .//*[@class='section-header-main']",
+        "{\"id\":\"0.6295863817149943-1\"}"
+      ],
+      "result": "getElementText:Taj Mahal Tower, Mumbai",
+      "subLogs": [],
+      "duration": 221
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=.//a[contains(@class,'price link-to-rooms')], using=xpath}"
+      ],
+      "result": "id: 0.6295863817149943-2",
+      "subLogs": [],
+      "duration": 205
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: .//a[contains(@class,'price link-to-rooms')]",
+        "{\"id\":\"0.6295863817149943-2\"}"
+      ],
+      "result": "getElementText:$398",
+      "subLogs": [],
+      "duration": 147
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=.//a[contains(@class,'price link-to-rooms')], using=xpath}"
+      ],
+      "result": "id: 0.6295863817149943-2",
+      "subLogs": [],
+      "duration": 170
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: .//a[contains(@class,'price link-to-rooms')]",
+        "{\"id\":\"0.6295863817149943-2\"}"
+      ],
+      "result": "getElementText:$398",
+      "subLogs": [],
+      "duration": 135
+    }
+  ],
+  "checkPoints": []
+}

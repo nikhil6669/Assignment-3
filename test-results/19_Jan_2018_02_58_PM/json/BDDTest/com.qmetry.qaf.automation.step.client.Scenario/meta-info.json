@@ -1,0 +1,24 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "End To End Test",
+        "groups": [
+          "SMOKE"
+        ],
+        "lineNo": 5,
+        "name": "I open Orbtiz WebSite",
+        "referece": "scenarios/suite1.bdd",
+        "sign": "scenarios.suite1.bdd.I open Orbtiz WebSite()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1516354133338,
+      "duration": 32776,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

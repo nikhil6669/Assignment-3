@@ -1,0 +1,12 @@
+13:10:49 scenario.file.loc[Ljava.lang.String;@1ad282e0
+13:10:49 loading BDD file: scenarios/suite1.bdd
+13:10:49 total test found: 1
+13:10:49 
+
+Executing scenario: I open Orbtiz application - End To End Test
+13:10:49 pkg: com.qmetry.qaf.automation.step
+13:10:49 pkg: com.qaf.assignment_3
+13:10:49 Found duplicate step to load [] with [lower] prority then []
+13:10:49 Invoking Teststep: Given user opens Orbitz site
+13:11:00 Completed Teststep: Given user opens Orbitz site
+13:11:00 Competed scenario: I open Orbtiz application with status SUCESS

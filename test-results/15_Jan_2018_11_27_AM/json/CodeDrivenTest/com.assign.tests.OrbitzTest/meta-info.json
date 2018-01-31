@@ -1,0 +1,19 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "sampleTestCase",
+        "sign": "OrbitzTest.sampleTestCase()[pri:0, instance:com.assign.tests.OrbitzTest@4d3167f4]"
+      },
+      "dependsOn": [],
+      "startTime": 1516015690710,
+      "duration": 82,
+      "result": "skip",
+      "passPer": 0.0
+    }
+  ]
+}

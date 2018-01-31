@@ -1,0 +1,328 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "{url=https://www.orbitz.com}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 6360
+    },
+    {
+      "commandName": "maximizeWindow",
+      "args": [
+        "{windowHandle=current}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 1140
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=package-origin, using=id}"
+      ],
+      "result": "id: 0.19693889549175903-1",
+      "subLogs": [],
+      "duration": 50
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.id: package-origin",
+        "{\"id\":\"0.19693889549175903-1\",\"value\":[\"Pune, India (PNQ-Lohegaon)\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 715
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=package-destination, using=id}"
+      ],
+      "result": "id: 0.19693889549175903-2",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.id: package-destination",
+        "{\"id\":\"0.19693889549175903-2\",\"value\":[\"Mumbai, India\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 389
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=package-departing, using=id}"
+      ],
+      "result": "id: 0.19693889549175903-3",
+      "subLogs": [],
+      "duration": 28
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.id: package-departing",
+        "{\"id\":\"0.19693889549175903-3\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 185
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=.//*[@id='package-departing-wrapper']/div/div/div[2]/table/tbody/tr[4]/td[5]/button, using=xpath}"
+      ],
+      "result": "id: 0.19693889549175903-4",
+      "subLogs": [],
+      "duration": 32
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: .//*[@id='package-departing-wrapper']/div/div/div[2]/table/tbody/tr[4]/td[5]/button",
+        "{\"id\":\"0.19693889549175903-4\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 192
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=package-returning, using=id}"
+      ],
+      "result": "id: 0.19693889549175903-5",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.id: package-returning",
+        "{\"id\":\"0.19693889549175903-5\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 151
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=.//*[@id='package-returning-wrapper']/div/div/div[2]/table/tbody/tr[4]/td[6]/button, using=xpath}"
+      ],
+      "result": "id: 0.19693889549175903-6",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: .//*[@id='package-returning-wrapper']/div/div/div[2]/table/tbody/tr[4]/td[6]/button",
+        "{\"id\":\"0.19693889549175903-6\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 99
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=package-1-children, using=id}"
+      ],
+      "result": "id: 0.19693889549175903-7",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "getElementTagName",
+      "args": [
+        "By.id: package-1-children",
+        "{\"id\":\"0.19693889549175903-7\"}"
+      ],
+      "result": "getElementTagName:select",
+      "subLogs": [],
+      "duration": 8
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=package-1-children, using=id}"
+      ],
+      "result": "id: 0.19693889549175903-7",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "getElementAttribute",
+      "args": [
+        "By.id: package-1-children",
+        "{\"name\":\"multiple\",\"id\":\"0.19693889549175903-7\"}"
+      ],
+      "result": "getElementAttribute:null",
+      "subLogs": [],
+      "duration": 8
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=package-1-children, using=id}"
+      ],
+      "result": "id: 0.19693889549175903-7",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.id: package-1-children",
+        "{\"using\":\"xpath\",\"id\":\"0.19693889549175903-7\",\"value\":\".//option[@value = \\\"1\\\"]\"}"
+      ],
+      "result": "findChildElements:[id: 0.19693889549175903-8]",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "isElementSelected",
+      "args": [
+        "id: 0.19693889549175903-8",
+        "{\"id\":\"0.19693889549175903-8\"}"
+      ],
+      "result": "isElementSelected:false",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "id: 0.19693889549175903-8",
+        "{\"id\":\"0.19693889549175903-8\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 142
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=package-1-age-select-1, using=id}"
+      ],
+      "result": "id: 0.19693889549175903-9",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "getElementTagName",
+      "args": [
+        "By.id: package-1-age-select-1",
+        "{\"id\":\"0.19693889549175903-9\"}"
+      ],
+      "result": "getElementTagName:select",
+      "subLogs": [],
+      "duration": 0
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=package-1-age-select-1, using=id}"
+      ],
+      "result": "id: 0.19693889549175903-9",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "getElementAttribute",
+      "args": [
+        "By.id: package-1-age-select-1",
+        "{\"name\":\"multiple\",\"id\":\"0.19693889549175903-9\"}"
+      ],
+      "result": "getElementAttribute:null",
+      "subLogs": [],
+      "duration": 1
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=package-1-age-select-1, using=id}"
+      ],
+      "result": "id: 0.19693889549175903-9",
+      "subLogs": [],
+      "duration": 0
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.id: package-1-age-select-1",
+        "{\"using\":\"xpath\",\"id\":\"0.19693889549175903-9\",\"value\":\".//option[@value = \\\"3\\\"]\"}"
+      ],
+      "result": "findChildElements:[id: 0.19693889549175903-10]",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "isElementSelected",
+      "args": [
+        "id: 0.19693889549175903-10",
+        "{\"id\":\"0.19693889549175903-10\"}"
+      ],
+      "result": "isElementSelected:false",
+      "subLogs": [],
+      "duration": 13
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "id: 0.19693889549175903-10",
+        "{\"id\":\"0.19693889549175903-10\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 82
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=search-button, using=id}"
+      ],
+      "result": "id: 0.19693889549175903-11",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.id: search-button",
+        "{\"id\":\"0.19693889549175903-11\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 1335
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=rewardsHeader, using=id}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=rewardsHeader, using=id}"
+      ],
+      "result": "[id: 0.025119199026684136-1]",
+      "subLogs": [],
+      "duration": 10
+    }
+  ],
+  "checkPoints": []
+}

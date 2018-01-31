@@ -1,0 +1,18 @@
+11:40:20 scenario.file.loc[Ljava.lang.String;@7205765b
+11:40:20 loading BDD file: scenarios/suite1.bdd
+11:40:20 total test found: 1
+11:40:20 
+
+Executing scenario: I open Orbtiz WebSite - End To End Test
+11:40:20 pkg: com.qmetry.qaf.automation.step
+11:40:20 pkg: com.qaf.assignment_3
+11:40:20 Found duplicate step to load [] with [lower] prority then []
+11:40:20 Found duplicate step to load [] with [lower] prority then []
+11:40:20 Found duplicate step to load [] with [lower] prority then []
+11:40:20 Invoking Teststep: Given user opens Orbitz site
+11:40:32 Completed Teststep: Given user opens Orbitz site
+11:40:32 Invoking Teststep: When user select '${origin}' and '${destination}' with arguments: [${origin}, ${destination}]
+11:40:34 Completed Teststep: When user select 'Pune, India (PNQ-Lohegaon)' and 'Mumbai, India' with arguments: [${origin}, ${destination}]
+11:40:34 Invoking Teststep: When user select date for '25' and '26' with arguments: [25, 26]
+11:43:20 Completed Teststep: When user select date for '25' and '26' with arguments: [25, 26]
+11:43:20 Competed scenario: I open Orbtiz WebSite with status SUCESS

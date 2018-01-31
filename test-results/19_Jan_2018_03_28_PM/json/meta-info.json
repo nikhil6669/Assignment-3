@@ -1,0 +1,13 @@
+{
+  "name": "qaf Assignment_3.scenarios.suite1.bdd",
+  "status": "pass",
+  "tests": [
+    "BDDTest"
+  ],
+  "total": 2,
+  "pass": 1,
+  "fail": 0,
+  "skip": 1,
+  "startTime": 1516355910358,
+  "endTime": 1516355941550
+}

@@ -1,0 +1,3 @@
+txt.result.name = {\"locator\":\"xpath=.//*[@class='section-header-main']\",\"desc\":\"name of destinamtion search result\"}
+txt.result.rate = {\"locator\":\"xpath=.//a[contains(@class,'price link-to-rooms')]\",\"desc\":\"price of the air fair\"}
+loader = {\"locator\":\"xpath=.//div/span[contains(@class,'loader-primary loader-light')]\",\"desc\":\"loader\"}
