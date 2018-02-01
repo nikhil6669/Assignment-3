@@ -38,6 +38,5 @@ public class OrbitzTest extends WebDriverTestCase
 		/*result.getTxtResultName();
 		result.getTxtResultRate();*/
 		result.verifyDetails();
-
 	}
 }

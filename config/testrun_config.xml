@@ -2,36 +2,31 @@
 <suite name="QAS Demo" verbose="0">
 
 	<!-- <parameter name="driver.name" value="firefoxDriver" /> -->
-	
-	 <test name="Code Driven Test" enabled="true">
-		<classes>
-			<class name="com.assign.tests.OrbitzTest"></class>
-		</classes>
-	</test> 
-	
-	 <test name="BDD Test" enabled="false">
-		<classes>
-			<class name="com.assign.tests.OrbitzTestBDD"></class>
-		</classes>
-	</test> 
-	
-	  <test name="Code Driven Test" enabled="true">
-		<classes>
-			<class name="com.assign.tests.OrbtizTestCSV"></class>
-		</classes>
-	</test>  
-	
-	 <test name="BDD Test" enabled="false">
-		<classes>
-			<class name="com.assign.tests.TestDemo"></class>
-		</classes>
-	</test> 
 
-	 <test name="KWD Test" enabled="false">
-		<classes>
-			<class name="com.qmetry.qaf.automation.step.client.csv.KwdTestFactory"></class>
-		</classes>
-	</test> 
+<!-- 	<test name="Code Driven Test" enabled="true"> -->
+<!-- 		<classes> -->
+<!-- 			<class name="com.assign.tests.OrbitzTest"></class> -->
+<!-- 			<class name="com.assign.tests.OrbtizTestCSV"></class> -->
+<!-- 		</classes> -->
+<!-- 	</test> -->
 
+	<!-- <test name="Test" enabled="true"> <parameter name="scenario.file.loc" 
+		value="scenarios/suite1.bdd"></parameter> <classes> <class name="com.assign.tests.TestDemo"></class> 
+		<class name="com.qmetry.qaf.automation.step.client.text.BDDTestFactory"/> 
+		</classes> </test> -->
+
+
+	<test name="BDD Test" enabled="true">
+		<parameter name="scenario.file.loc" value="scenarios/suite1.bdd"></parameter>
+		<classes>
+			<class name="com.qmetry.qaf.automation.step.client.text.BDDTestFactory" />
+		</classes>
+	</test>
+
+	<!-- <test name="CSV Test" enabled="true"> -->
+	<!-- <classes> -->
+	<!-- <class name="com.assign.tests.OrbtizTestCSV"></class> -->
+	<!-- </classes> -->
+	<!-- </test> -->
 
 </suite>

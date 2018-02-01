@@ -1,6 +1,7 @@
 SCENARIO: I open Orbtiz application
-#META-DATA: {"description":"End To End Test","groups":["SMOKE"]}
-	
+META-DATA: {"description":"End To End Test","groups":["SMOKE"]}
+
+#calls OrbitzTestBDD class
 #	Add Steps here
 	Given user opens Orbitz site
 	When user select origin and destination
@@ -8,11 +9,11 @@ SCENARIO: I open Orbtiz application
 	When user select number of childrens and their age
 	Then user clicks on search button
 	And user verify search result
-#END
+END
 
 SCENARIO: I open Orbtiz WebSite
-#META-DATA: {"description":"End To End Test","groups":["SMOKE"]}
-	
+META-DATA: {"description":"End To End Test","groups":["SMOKE"]}
+# calls test demo class
 #	Add Steps here
 	Given user opens Orbitz site
 	When user select '${origin}' and '${destination}'
@@ -20,13 +21,13 @@ SCENARIO: I open Orbtiz WebSite
 	When user select number of '${childrens}' and their '${age}'
 	Then click button is clicked
 	And user verifys search result
-#END
+END
 
 
 SCENARIO: I open Orbtiz application2
 META-DATA: {"description":"End To End flow","groups":["P1","P2","SMOKE"],"key":"places"}
 	
-	#TODO: call test steps
+# calls test demo class
 	Given user opens Orbitz site
 	When user select '${origin}' and '${destination}'
 	When user select date for Departing and Returning

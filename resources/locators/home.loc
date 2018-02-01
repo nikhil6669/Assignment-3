@@ -4,10 +4,10 @@ txtbox.destination.homepage = {\"locator\":\"id=package-destination\",\"desc\":\
 input.destination.homepage = {\"locator\":\"Dubai, United Arab Emirates\",\"desc\":\"enter text in origin\"}
 
 date.departing.homepage = {\"locator\":\"id=package-departing\",\"desc\":\"click on departing date\"}
-date.select.departing.homepage = {\"locator\":\"xpath=.//*[@id='package-departing-wrapper']/div/div/div[2]/table/tbody/tr[5]/td[2]/button\",\"desc\":\"select date for departing\"}
+date.select.departing.homepage = {\"locator\":\"xpath=.//*[@id='package-departing-wrapper']/div/div/div[3]/table/tbody/tr[1]/td[5]/button\",\"desc\":\"select date for departing\"}
 
 date.returning.homepage = {\"locator\":\"id=package-returning\",\"desc\":\"click on departing date\"}
-date.select.returning.homepage = {\"locator\":\"xpath=.//*[@id='package-returning-wrapper']/div/div/div[2]/table/tbody/tr[5]/td[4]/button\",\"desc\":\"select date for returning\"}
+date.select.returning.homepage = {\"locator\":\"xpath=.//*[@id='package-returning-wrapper']/div/div/div[3]/table/tbody/tr[1]/td[7]/button\",\"desc\":\"select date for returning\"}
 
 dropdown.children.num.homepage = {\"locator\":\"id=package-1-children\",\"desc\":\"select number of childrens\"}
 dropdown.children.age.homepage = {\"locator\":\"id=package-1-age-select-1\",\"desc\":\"select age of the children\"}

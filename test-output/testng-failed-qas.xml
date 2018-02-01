@@ -1,17 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="qaf Assignment_3.scenarios.suite1.bdd">
-  <parameter name="scenario.file.loc" value="scenarios/suite1.bdd"/>
+<suite name="QAS Demo">
+  <test name="Test">
+    <method-selectors>
+      <method-selector>
+        <script language="beanshell">
+          <![CDATA[testngMethod.getMethodName().equalsIgnoreCase("I open Orbtiz WebSite")||testngMethod.getMethodName().equalsIgnoreCase("I open Orbtiz application")||testngMethod.getMethodName().equalsIgnoreCase("I open Orbtiz application2")]]>
+        </script>
+      </method-selector>
+    </method-selectors>
+    <parameter name="scenario.file.loc" value="scenarios/suite1.bdd"/>
+    <classes>
+      <class name="com.qmetry.qaf.automation.step.client.text.BDDTestFactory"/>
+    </classes>
+  </test> <!-- Test -->
   <test name="BDD Test">
     <method-selectors>
       <method-selector>
         <script language="beanshell">
-          <![CDATA[testngMethod.getMethodName().equalsIgnoreCase("I open Orbtiz application2")]]>
+          <![CDATA[testngMethod.getMethodName().equalsIgnoreCase("I open Orbtiz application")||testngMethod.getMethodName().equalsIgnoreCase("I open Orbtiz WebSite")||testngMethod.getMethodName().equalsIgnoreCase("I open Orbtiz application2")]]>
         </script>
       </method-selector>
     </method-selectors>
+    <parameter name="scenario.file.loc" value="scenarios/suite1.bdd"/>
     <classes>
       <class name="com.qmetry.qaf.automation.step.client.text.BDDTestFactory"/>
     </classes>
   </test> <!-- BDD Test -->
-</suite> <!-- qaf Assignment_3.scenarios.suite1.bdd -->
+</suite> <!-- QAS Demo -->
